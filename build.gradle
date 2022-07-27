@@ -7,9 +7,7 @@ buildscript {
         lombokVersion = '1.18.22'
 	}
 }
-group : 'ph.dev'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility ='11'
+
 
 plugins {
 	id 'co.com.bancolombia.cleanArchitecture' version "${cleanArchitectureVersion}"
